@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Barlow:wght@100&family=Raleway:wght@100&display=swap');
+
+
+/* GLOBAL */
+
+.App {
+  text-align: center;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* LOGO & NAV */
+
+.logo-whatever {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 11rem;
+  
+}
+
+.logo {
+  width: 22rem;
+  height: 10rem;
+  display: flex;
+}
+
+.nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #f1ce06e7;
+}
+
+.nav a:hover {
+  text-decoration: none;
+  color: #ffffffe7;
+  border-bottom: solid 1.5px #f1ce06e7;
+}
+
+/* HEADERS */
+
+h1 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 3rem;
+  padding: 1rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  color: white;
+}
+
+.preheader {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-bottom: -1rem;
+}
+
+.subheader {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+}
+
+.portfolio-header {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: -4rem;
+}
+
+h2 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: medium;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h5 {
+  font-family: 'Barlow', sans-serif;
+  color: #f1ce06e7;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+/* HOME */
+
+.me {
+  height: 40rem;
+}
+
+.container {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  background: #f1ce06e7;
+}
+
+.home-button {
+  width: 50%;
+  align-self: center;
+  color: rgb(27, 36, 44);
+}
+
+.home-button a {
+  text-decoration: none;
+  color: rgb(27, 36, 44);
+}
+
+.ido {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5% 20% 5%
+}
+
+.html {
+  height: 5rem;
+  width: 5rem;
+}
+
+.css {
+  height: 5rem;
+  width: 5rem;
+}
+
+.js {
+  height: 5rem;
+  width: 5rem;
+}
+
+.react {
+  height: 5.8rem;
+  width: 7.5rem;
+}
+
+.node {
+  height: 5rem;
+  width: 5.8rem;
+}
+
+.aboutme {
+  border: 2px solid #f1ce06e7;
+  margin: 0% 6%;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  margin: 0 10% 2%;
+  color: white;
+}
+
+.baby {
+  height: 25rem;
+  border: 2px solid #000000e7;
+  margin-left: 10%;
+}
+
+
+.footer p {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+  font-size: .7rem;
+  color: white;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 20%;
+  margin: 0 auto 1.5rem;
+}
+
+/* PORTFOLIO DESIGN */
+
+.portfolio {
+  background: rgb(27, 36, 44);
+}
+
+.projects {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pizza-div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-right: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.pizza-div p {
+  margin: -1rem 5%;
+  width: 70%;
+}
+
+.pizza-pr {
+  width: 35rem;
+  height: 26rem;
+  border: 2px solid #f1ce06e7;
+}
+
+.wow-div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.wow-div p {
+  margin: -1rem 5%;
+  width: 70%;
+}
+
+.wow-pr {
+  width: 35rem;
+  height: 26rem;
+  border: 2px solid #f1ce06e7;
+}
+
+.view-proj {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.view-proj a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bold;
+}
+
+.github-logo {
+  width: 4%;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+  
+.preheader {
+  font-size: 1rem;
+}
+
+.subheader {
+  font-size: 1rem;
+  margin-bottom: -7rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h4 {
+  text-align: center;
+}
+
+.me {
+  height: 24rem;
+  width: 100%;
+  margin-top: -5rem;
+}
+
+.container {
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-div {
+  padding-bottom: 5%;
+  width: 100%;
+}
+
+.about-container {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-container p {
+  text-align: center;
+  margin: 7% 1%;
+  width: 100%;
+}
+
+.baby {
+  height: 20rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  margin-bottom: -2.7rem;
+}
+
+}
